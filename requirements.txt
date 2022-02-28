@@ -1,5 +1,11 @@
-hdf5storage
-tqdm
-scipy
-numpy
-matplotlib
+torch==1.0.0
+torchvision==0.2.1
+hdf5storage==0.1.15
+tqdm~=4.30.0
+scipy~=1.1.0
+matplotlib~=3.0.0
+visdom~=0.1.8.0
+opencv-python~=3.4.0
+tensorboard~=1.15.0
+tensorboardX~=1.6.0
+numpy<1.15.0
