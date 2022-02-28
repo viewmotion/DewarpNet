@@ -26,6 +26,8 @@ from loaders import get_loader
 from utils import show_wc_tnsboard,  get_lr
 import grad_loss
 
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
+
 
 def write_log_file(log_file_name,losses, epoch, lrate, phase):
     with open(log_file_name,'a') as f:
