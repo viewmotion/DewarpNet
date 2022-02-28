@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 import glob
 import cv2
 import random
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 from tqdm import tqdm
 from torch.utils import data
